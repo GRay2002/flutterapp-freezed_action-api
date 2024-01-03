@@ -31,7 +31,7 @@ class PhotoApi {
 
 Future<void> main() async {
   final client = Client();
-  final api = PhotoApi('uMMIAf8R4FdsjeGUmEKkZRjFtap0BhJU-3P9Ww8Fe_s', client);
+  final api = PhotoApi('tACkK8zx_wVYlLaBtAmh86X8AXAgD4tkEkLpmSOr1Xo', client);
   final List<Photo> photos = await api.getPhotos();
   photos.forEach(print);
 }
